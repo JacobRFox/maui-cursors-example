@@ -11,12 +11,4 @@
     <Exec Command="copy &quot;$(SolutionDir)\CompileRC\*&quot; &quot;$(TargetDir)&quot;" />
   </Target>
 
-  <ItemGroup>
-    <None Remove="readme.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="readme.md" />
-  </ItemGroup>
-
 </Project>
